@@ -2,6 +2,19 @@
 ***
 # Final CRUD Application - Jenkins CI/CD Automation
 ***
+## 🔥 About the Project
+This repository showcases a **fully automated CI/CD pipeline** for two Node.js microservices:
+- ServerM (simple Node.js server)
+- FinalCRUD (CRUD API with MongoDB and MySQL)
+
+The goal of this project is to demonstrate how modern DevOps tools work together to:
+- Build and test code automatically
+- Package applications as Docker images
+- Push versions to Docker Hub
+- Deploy them instantly to Kubernetes
+
+This ensures continuous integration, continuous delivery, and **zero-downtime deployments** across both applications.
+---
 
 ## 📖 Overview
 FinalCRUD is a full-stack Node.js CRUD backend integrating both MongoDB (via Mongoose) and MySQL (via Sequelize).  
