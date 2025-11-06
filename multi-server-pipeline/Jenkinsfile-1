@@ -36,7 +36,7 @@ pipeline {
 
                         sh """
                           sed -i "s|${DOCKER_HUB_USER}/${imageName}:v[0-9]*|${DOCKER_HUB_USER}/${imageName}:v${BUILD_NUMBER}|g" server-deploy.yaml
-                          echo "✅ Updated server-deploy.yaml image to ${DOCKER_HUB_USER}/${imageName}:v${BUILD_NUMBER}"
+                          echo " Updated server-deploy.yaml image to ${DOCKER_HUB_USER}/${imageName}:v${BUILD_NUMBER}"
                         """
 
                         sh """
@@ -76,7 +76,7 @@ pipeline {
 
                         sh """
                           sed -i "s|${DOCKER_HUB_USER}/${imageName}:v[0-9]*|${DOCKER_HUB_USER}/${imageName}:v${BUILD_NUMBER}|g" finalcrud-deploy.yaml
-                          echo "✅ Updated finalcrud-deploy.yaml image to ${DOCKER_HUB_USER}/${imageName}:v${BUILD_NUMBER}"
+                          echo " Updated finalcrud-deploy.yaml image to ${DOCKER_HUB_USER}/${imageName}:v${BUILD_NUMBER}"
                         """
 
                         sh """
