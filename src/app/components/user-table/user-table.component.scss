@@ -1,0 +1,23 @@
+.action-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding:8px 8px 8px 0;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+.header-bar {
+  background-color: lightgreen;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .header-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+  }
+}
