@@ -2,7 +2,8 @@
 
 # Full CI/CD Pipeline With Jenkins, Docker, and Kubernetes
 
-Automate build, test, deploy, and monitoring of two Node.js apps—`serverm-1` and `FinalCRUDwithMongoose-Sequelize-1`—from source to Kubernetes cluster using Jenkins, Docker, and Docker Hub, with easy extension to auto-deploy via GitHub webhook triggers.
+Automate build, test, deploy, and monitoring of two Node.js apps—[`serverm-1`](https://github.com/Mayurhatte09/serverm-1)
+ and [`FinalCRUDwithMongoose-Sequelize-1`](https://github.com/Mayurhatte09/FInalCRUDwithMongoose-Sequelize-1)—from source to Kubernetes cluster using Jenkins, Docker, and Docker Hub, with easy extension to auto-deploy via GitHub webhook triggers.
 
 ## Features
 
@@ -105,7 +106,6 @@ pipeline {
 }
 ```
 
-*(See the full Jenkinsfile code above for each step detail.)*
 
 ***
 
