@@ -151,7 +151,7 @@ kubectl get pods
 2. Name: `FinalCRUD-CI-CD`
 3. Source Control: Git
 4. Repository URL:  
-   `https://github.com/Mayurhatte09/FinalCRUDwithMongoose-Sequelize-1.git`
+   https://github.com/Mayurhatte09/FinalCRUDwithMongoose-Sequelize-1.git
 5. Click **Build Now**
 
 Jenkins will:
