@@ -14,12 +14,9 @@ spec:
     spec:
       containers:
       - name: finalcrud
-        image: your_dockerhub_username/finalcrud-app
+        image: mayrhatte09/finalcrud-app   
         ports:
-        - containerPort: 3000
-        env:
-        - name: MONGO_URL
-          value: mongodb://mongo:27017/mydb
+        - containerPort: 4200   # Angular default port
 ---
 apiVersion: v1
 kind: Service
@@ -29,7 +26,8 @@ spec:
   selector:
     app: finalcrud
   ports:
-  - port: 3000
-    targetPort: 3000
-    nodePort: 30001
+  - port: 4200
+    targetPort: 4200
+    nodePort: 30001   # accessible externally on <EC2-IP>:30001
   type: NodePort
+
